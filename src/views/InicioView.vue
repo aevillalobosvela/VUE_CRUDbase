@@ -1,12 +1,10 @@
 <template>
     <div>
-        <h1>Nueva Pagina</h1>
+        <LoginComp />
     </div>
 </template>
-<script>
-export default {
-
-}
+<script setup>
+import LoginComp from '../components/LoginComp.vue'
 </script>
 <style lang="">
     
