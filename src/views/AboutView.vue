@@ -1,7 +1,8 @@
+<script setup>
+import SegundoComp from '../components/SegundoComp.vue'
+</script>
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <SegundoComp />
 </template>
 
-<style></style>
+<style scoped></style>

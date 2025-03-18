@@ -1,11 +1,9 @@
 <script setup>
-import InicioComp from '../components/InicioComp.vue'
-import SegundoComp from '../components/SegundoComp.vue'
+import LoginComp from '../components/LoginComp.vue'
 </script>
 
 <template>
   <main>
-    <InicioComp />
-    <SegundoComp />
+    <LoginComp />
   </main>
 </template>
