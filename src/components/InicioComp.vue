@@ -1,13 +1,9 @@
-<template lang="">
-    <div>
-        <h1>Inicio</h1>
-    </div>
-</template>
-<script>
-export default {
+<script setup>
 
-}
 </script>
-<style lang="">
-    
-</style>
+
+<template>
+  <div>
+    <h1>Este es un componente</h1>
+  </div>
+</template>
