@@ -3,7 +3,7 @@ import LoginComp from '../components/LoginComp.vue'
 </script>
 
 <template>
-  <main>
-    <LoginComp />
-  </main>
+    <main>
+        <LoginComp />
+    </main>
 </template>
