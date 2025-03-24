@@ -19,11 +19,9 @@
             <a class="nav-link" href="#">Opcion2</a>
           </li>
         </ul>
-        <div>   <button
-            type="button"
-            class="btn btn-primary"
-        >
-            Button
+        <div>   
+          <button type="button" class="btn btn-primary">
+            Un boton
         </button></div>
      
         
