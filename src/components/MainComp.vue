@@ -1,6 +1,6 @@
 <template lang="">
-  
-<div id="carouselExampleCaptions" class="carousel slide mb-6">
+ 
+<div id="carouselExampleCaptions" class="carousel slide mb-6 mt-5">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
