@@ -27,24 +27,29 @@
     </div>
 </template>
 <script>
+import { useAuthStore } from '../stores/counter';
+
 export default {
     data() {
         return {
             usuario: "",
             password: "",
             error: "",
-        }
+            authStore: useAuthStore(), // ✅ Moverlo aquí dentro
+        };
     },
     methods: {
         loginenter() {
-            if (this.usuario == "admin") {
+            if (this.usuario === "admin") {
+                this.authStore.login(this.usuario, this.password);
                 alert("Moviendose");
                 this.$router.push('/inicio');
             } else {
-                this.error = "Usuario no encontrado"
+                this.error = "Usuario no encontrado";
             }
         }
-    },
-}
+    }
+};
 </script>
+
 <style ></style>
